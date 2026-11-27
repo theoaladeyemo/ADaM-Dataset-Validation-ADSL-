@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-11-27T10:35:45.280664Z",
+  "_captured_run_id": "r_77df42108fb041f9982ad41de4ac942a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: The data set WORK.ADSLX has 6 observations and 43 variables.",
+    "NOTE: The data set WORK.ADSLX2 has 6 observations and 40 variables.",
+    "NOTE: The data set WORK.VS1X has 6 observations and 4 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

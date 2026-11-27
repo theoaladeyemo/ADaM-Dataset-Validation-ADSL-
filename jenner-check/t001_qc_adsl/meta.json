@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_qc_adsl",
+  "source_file": "QC_adsl.sas",
+  "source_blob_sha": "3f5091a128808ab9d5b6053c1276e58aea579fe4",
+  "source_commit": "f42c5bc6d2d3a5eff8d7ff268b1ca68837b0102e",
+  "notes": "Derivation steps of QC_adsl.sas (DM/DS/EX/VS/SV merge into ADSL) run on a small sample of SDTM rows defined in autoexec.sas; the %include, printto/ods rtf lines and the final labelling/PROC COMPARE steps are not part of this bundle."
+}
