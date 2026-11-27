@@ -1,0 +1,220 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: Library RAWDATA assigned path=..
+NOTE: Library ANADATA assigned path=..
+NOTE: Library ORIGINAL assigned path=..
+NOTE: DATA RAWDATA.DM
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: The data set RAWDATA.DM has 6 observations and 13 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA RAWDATA.DS
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: The data set RAWDATA.DS has 6 observations and 6 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA RAWDATA.EX
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: The data set RAWDATA.EX has 8 observations and 4 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA RAWDATA.VS
+
+NOTE: Processing inline DATALINES (13 lines)
+
+NOTE: The data set RAWDATA.VS has 13 observations and 4 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA RAWDATA.SV
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: The data set RAWDATA.SV has 7 observations and 2 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ORIGINAL.ADSL
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: The data set ORIGINAL.ADSL has 6 observations and 4 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=RAWDATA.DM
+
+NOTE: There were 6 observations read from the data set RAWDATA.DM.
+NOTE: The data set WORK.DM1 has 6 observations and 13 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.DM1
+
+
+NOTE: There were 6 observations read from the data set WORK.DM1.
+NOTE: The data set WORK.DM1 has 6 observations and 19 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=WORK.DM1
+
+NOTE: There were 6 observations read from the data set WORK.DM1.
+NOTE: The data set WORK.DM1 has 6 observations and 19 variables.
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=RAWDATA.DS
+
+NOTE: There were 6 observations read from the data set RAWDATA.DS.
+NOTE: The data set WORK.DS1 has 6 observations and 6 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.DS1X
+
+
+NOTE: There were 6 observations read from the data set WORK.DS1.
+NOTE: The data set WORK.DS1X has 6 observations and 11 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=WORK.DS1X
+
+NOTE: There were 6 observations read from the data set WORK.DS1X.
+NOTE: 0 observations with duplicate key values were deleted.
+NOTE: The data set WORK.DS1X has 6 observations and 11 variables.
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=RAWDATA.EX
+
+NOTE: There were 8 observations read from the data set RAWDATA.EX.
+NOTE: The data set WORK.EX1 has 8 observations and 4 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.EX1X
+
+
+NOTE: There were 8 observations read from the data set WORK.EX1.
+NOTE: The data set WORK.EX1X has 8 observations and 8 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.EX2
+
+
+NOTE: There were 8 observations read from the data set WORK.EX1X.
+NOTE: The data set WORK.EX2 has 8 observations and 10 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.EX3
+
+
+NOTE: There were 8 observations read from the data set WORK.EX2.
+NOTE: The data set WORK.EX3 has 8 observations and 11 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=WORK.EX3
+
+NOTE: There were 8 observations read from the data set WORK.EX3.
+NOTE: 2 observations with duplicate key values were deleted.
+NOTE: The data set WORK.EX3 has 6 observations and 11 variables.
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=RAWDATA.VS
+
+NOTE: There were 13 observations read from the data set RAWDATA.VS.
+NOTE: The data set WORK.VS1 has 13 observations and 4 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.VS2
+
+
+NOTE: There were 13 observations read from the data set WORK.VS1.
+NOTE: The data set WORK.VS2 has 13 observations and 6 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.VS1W
+
+
+NOTE: There were 6 observations read from the data set WORK.VS2.
+      WHERE WGTB not = .;
+NOTE: The data set WORK.VS1W has 6 observations and 5 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.VS1H
+
+
+NOTE: There were 6 observations read from the data set WORK.VS2.
+      WHERE HGTB not = .;
+NOTE: The data set WORK.VS1H has 6 observations and 5 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.VS3
+
+
+NOTE: There were 6 observations read from the data set WORK.VS1W.
+NOTE: There were 6 observations read from the data set WORK.VS1H.
+NOTE: The data set WORK.VS3 has 6 observations and 5 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.VS1X
+
+
+NOTE: There were 6 observations read from the data set WORK.VS3.
+NOTE: The data set WORK.VS1X has 6 observations and 4 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=RAWDATA.SV
+
+NOTE: There were 7 observations read from the data set RAWDATA.SV.
+NOTE: The data set WORK.SV1 has 7 observations and 2 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.SV2
+
+
+NOTE: There were 7 observations read from the data set WORK.SV1.
+NOTE: The data set WORK.SV2 has 7 observations and 3 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=WORK.SV2
+
+NOTE: There were 7 observations read from the data set WORK.SV2.
+NOTE: 1 observations with duplicate key values were deleted.
+NOTE: The data set WORK.SV2 has 6 observations and 3 variables.
+NOTE: PROC SORT statement used.
+NOTE: DATA WORK.ADSLX
+
+
+NOTE: There were 6 observations read from the data set WORK.DM1.
+NOTE: There were 6 observations read from the data set WORK.SV2.
+NOTE: There were 6 observations read from the data set WORK.EX3.
+NOTE: There were 6 observations read from the data set WORK.DS1X.
+NOTE: There were 6 observations read from the data set WORK.VS1X.
+NOTE: The data set WORK.ADSLX has 6 observations and 43 variables.
+NOTE: DATA elapsed:
+  wall  0.01 seconds
+  cpu   0.01 seconds
+NOTE: DATA WORK.ADSLX1
+
+
+NOTE: There were 6 observations read from the data set WORK.ADSLX.
+NOTE: The data set WORK.ADSLX1 has 6 observations and 40 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.ADSLX2
+
+
+NOTE: There were 6 observations read from the data set WORK.ADSLX1.
+NOTE: The data set WORK.ADSLX2 has 6 observations and 40 variables.
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
